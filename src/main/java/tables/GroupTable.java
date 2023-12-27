@@ -60,7 +60,7 @@ public class GroupTable extends AbsTable{
     }
   public void insert(Group group){
        final String sqlRequest = String.format("insert into %s (id, name, id_curator) VALUES (%d, '%s', '%d');",
-               tableName, group.geId(), group.getName(), group.getId_curator());
+               tableName, group.getId(), group.getName(), group.getId_curator());
       db.executeRequest(sqlRequest);
     }
 

@@ -57,6 +57,7 @@ public class Main {
 
             studentTable.selectAllStudent();
 
+
             studentTable.selectSumm();
 
             studentTable.selectWomen();

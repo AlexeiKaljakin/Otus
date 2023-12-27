@@ -20,7 +20,7 @@ public class Group {
         this.id_curator = id_curator;
     }
 
-    public long geId() {
+    public long getId() {
         return id;
     }
 
